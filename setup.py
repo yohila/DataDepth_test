@@ -17,9 +17,9 @@ setup(
    	# long_description_content_type="text/markdown",
    	url="https://github.com/pypa",
     	packages=find_packages(),
-    	ext_modules=[
+    # 	ext_modules=[
         
-   	 ],
+   	#  ],
     	include_package_data=True,
   	package_data={"UNIX-POSIX": ['ddalpha.so','depth_wrapper.so']},
    	zip_safe=False,
