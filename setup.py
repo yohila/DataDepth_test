@@ -13,8 +13,8 @@ if sys.platform=='linux':
     	author="Pavlo mozharovskyi",
     	author_email="pavlo.mozharovskyi@telecom-paris.fr",
    	description="The package provides many procedures for calculating the depth of points in an empirical distribution for many notions of data depth",
-   	long_description=long_description,
-   	long_description_content_type="text/markdown",
+   	# long_description=long_description,
+   	# long_description_content_type="text/markdown",
    	url="https://github.com/pypa",
     	packages=find_packages(),
     	ext_modules=[
@@ -32,8 +32,8 @@ if sys.platform=='nt' and platform.architecture()[0] == "32bit":
     	author="Pavlo mozharovskyi",
     	author_email="pavlo.mozharovskyi@telecom-paris.fr",
    	description="The package provides many procedures for calculating the depth of points in an empirical distribution for many notions of data depth",
-   	long_description=long_description,
-   	long_description_content_type="text/markdown",
+   	# long_description=long_description,
+   	# long_description_content_type="text/markdown",
    	url="https://github.com/pypa",
     	packages=find_packages(),
     	ext_modules=[
@@ -53,8 +53,8 @@ if sys.platform=='nt' and platform.architecture()[0] == "64bit":
     	author="Pavlo mozharovskyi",
     	author_email="pavlo.mozharovskyi@telecom-paris.fr",
    	description="The package provides many procedures for calculating the depth of points in an empirical distribution for many notions of data depth",
-   	long_description=long_description,
-   	long_description_content_type="text/markdown",
+   	# long_description=long_description,
+   	# long_description_content_type="text/markdown",
    	url="https://github.com/pypa",
     	packages=find_packages(),
     	ext_modules=[
