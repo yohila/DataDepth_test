@@ -2,7 +2,7 @@ from setuptools.command.build_ext import build_ext
 from setuptools import Extension, setup, find_packages
 
 import os, sys
-sys.platform
+# sys.platform
 import platform
 
 
