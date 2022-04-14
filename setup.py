@@ -6,7 +6,7 @@ sys.platform
 import platform
 
 
-if sys.platform=='linux'
+if sys.platform=='linux':
 	setup(
     	name="depth",
    	version="1.0.0",
